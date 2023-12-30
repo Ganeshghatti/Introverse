@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap");
+
+body {
+  background-color: #1a1a1a;
+}
+p {
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  @media (max-width: 867px) {
+    font-size: 30px;
+  }
+}
+#navbar li {
+  font-family: "Rubik", sans-serif;
+}
+.hero-title {
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+.hero-button {
+  width: 223.385px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #ff9142;
+  @media (max-width: 867px) {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+.hero-scroll {
+  font-family: "Rubik", sans-serif;
+}
+.hero-design {
+  left: 40%;
+  top: 20%;
+  @media (max-width: 867px) {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+  }
+}
+.features-p {
+  color: #a8a8a8;
+  font-family: "Rubik", sans-serif;
+  font-size: 15.446px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 154.5%;
+  letter-spacing: 0.85px;
+}
+.features-h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  @media (max-width: 867px) {
+    font-size: 30px;
+  }
+}
+.features-button {
+  border-radius: 40.331px;
+  background: #ff9142;
+  display: inline-flex;
+  padding: 15px 40px;
+  align-items: flex-start;
+  @media (max-width: 867px) {
+    padding: 12px 30px;
+  }
+}
+.features-img-container {
+  position: relative;
+  display: inline-block;
+  width: 450px;
+  @media (max-width: 867px) {
+    width: 90%;
+  }
+}
+
+.features-img {
+  display: block;
+  width: 100%; /* Ensure the image takes up the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.features-img-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: -5%;
+  background: url("../public/featuresRectVerticle.png") no-repeat;
+  width: 47.196px;
+  height: 152.742px;
+}
+.features-img-container::before {
+  content: "";
+  position: absolute;
+  top: -5%;
+  right: 0;
+  background: url("../public/featuresRectHorizontal.png") no-repeat;
+  width: 94.391px;
+  height: 29.175px;
+}
+.team-title {
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 700;
+  margin-left: 5%;
+  @media (max-width: 867px) {
+    margin-left: 0%;
+  }
+}
+.team-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+  border-radius: 41.943px;
+  border: 1.678px solid #fff;
+  background: radial-gradient(
+    107.32% 141.42% at 0% 0%,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: -4.194px -4.194px 209.716px 0px rgba(255, 255, 255, 0.02) inset;
+  backdrop-filter: blur(17.616113662719727px);
+  width: 300px;
+  height: 390px;
+  @media (max-width: 867px) {
+    width: 90%;
+  }
+}
+.team-name {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  @media (max-width: 867px) {
+    font-size: 18px;
+  }
+}
+.team-role {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  @media (max-width: 867px) {
+    font-size: 18px;
+  }
+}
+.contact-getintouch {
+  color: #ff9142;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-size: 21.541px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  @media (max-width: 867px) {
+    font-size: 18px;
+  }
+}
+.contact-email {
+  color: #fff;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-size: 57.443px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  @media (max-width: 867px) {
+    font-size: 18px;
+  }
+}
+.contact-copyright {
+  color: #fff;
+  text-align: center;
+  font-family: "Syne", sans-serif;
+  font-size: 21.541px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  @media (max-width: 867px) {
+    font-size: 18px;
+  }
+}
+
+.features-design-div3,
+.features-design-div1 {
+  position: absolute;
+  filter: blur(86.40117645263672px);
+  left: 5%;
+}
+.features-design-div4,
+.features-design-div2 {
+  position: absolute;
+  filter: blur(86.40117645263672px);
+  right: 5%;
+}

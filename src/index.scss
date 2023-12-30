@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+html{
+  scroll-behavior: smooth;
+}

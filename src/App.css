@@ -101,20 +101,16 @@ h1 {
 .features-img-container {
   position: relative;
   display: inline-block;
-  width: 450px;
+  max-width: 450px;
 }
 @media (max-width: 867px) {
   .features-img-container {
     width: 90%;
   }
 }
-
-.features-img {
-  display: block;
-  width: 100%; /* Ensure the image takes up the full width of its container */
-  height: auto; /* Maintain aspect ratio */
+.features-img{
+  width: 100%;
 }
-
 .features-img-container::after {
   content: "";
   position: absolute;

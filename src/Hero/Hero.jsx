@@ -58,7 +58,7 @@ export default function Hero() {
         height="550"
         viewBox="0 0 748 550"
         fill="none"
-        className="absolute hero-design md:w-11/12"
+        className="absolute hero-design md:w-11/12 lg:w-11/12"
       >
         <g filter="url(#filter0_f_82_33)">
           <path

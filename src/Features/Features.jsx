@@ -16,7 +16,7 @@ export default function Features() {
           height="580"
           viewBox="0 0 552 580"
           fill="none"
-          className="features-design-div1 md:w-11/12"
+          className="features-design-div1 md:w-11/12 lg:w-11/12"
         >
           <g filter="url(#filter0_f_82_116)">
             <path
@@ -60,7 +60,7 @@ export default function Features() {
             JOIN NOW
           </button>
         </div>
-        <div className="features-img-container md:w-11/12">
+        <div className="features-img-container md:w-11/12 lg:w-11/12">
           <img src="./features1.png" className="features-img" />
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function Features() {
             </filter>
           </defs>
         </svg>
-        <div className="features-img-container md:w-11/12">
+        <div className="features-img-container md:w-11/12 lg:w-11/12">
           <img src="./features2.png" className="features-img" />
         </div>
         <div className="flex flex-col w-2/5 gap-6 justify-center md:w-11/12">
@@ -189,7 +189,7 @@ export default function Features() {
           height="583"
           viewBox="0 0 696 583"
           fill="none"
-          className="features-design-div4 md:w-11/12"
+          className="features-design-div4 md:w-11/12 lg:w-11/12"
         >
           <g filter="url(#filter0_f_82_170)">
             <path

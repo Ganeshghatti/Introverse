@@ -9,7 +9,7 @@ export default function Features() {
       <h1 className="text-center features-h1">
         Why should you use Introverse ?
       </h1>
-      <div className="flex w-full md:flex-col justify-center gap-12 items-center">
+      <div className="flex w-4/5 md:w-full md:flex-col justify-center gap-12 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="552"
@@ -65,7 +65,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="flex w-full md:flex-col-reverse justify-center gap-12 items-center">
+      <div className="flex w-4/5 md:w-full md:flex-col-reverse justify-center gap-12 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="603"
@@ -125,7 +125,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="flex w-full md:flex-col justify-center gap-12 items-center">
+      <div className="flex w-4/5 md:w-full md:flex-col justify-center gap-12 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="615"
@@ -182,7 +182,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="flex w-full md:flex-col-reverse justify-center gap-12 items-center">
+      <div className="flex w-4/5 md:w-full md:flex-col-reverse justify-center gap-12 items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="696"

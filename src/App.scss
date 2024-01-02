@@ -21,6 +21,11 @@ h1 {
 #navbar li {
   font-family: "Rubik", sans-serif;
 }
+#hero {
+  @media (max-width: 867px) {
+    margin-top: 20vh;
+  }
+}
 .hero-title {
   font-family: "Syne", sans-serif;
   font-style: normal;

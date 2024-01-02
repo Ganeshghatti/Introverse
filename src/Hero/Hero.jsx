@@ -5,7 +5,6 @@ export default function Hero() {
     <section
       id="hero"
       className="w-screen h-screen flex flex-col items-center justify-center md:justify-start gap-6"
-      style={{marginTop:"20vh"}}
     >
       <p className="text-7xl md:text-5xl font-extrabold text-center hero-title text-white md:w-11/12">
         INTRO<br className="hidden md:block"/>VERSE

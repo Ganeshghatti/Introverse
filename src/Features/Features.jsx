@@ -16,7 +16,7 @@ export default function Features() {
           height="580"
           viewBox="0 0 552 580"
           fill="none"
-          className="features-design-div1"
+          className="features-design-div1 md:w-11/12"
         >
           <g filter="url(#filter0_f_82_116)">
             <path
@@ -72,7 +72,7 @@ export default function Features() {
           height="580"
           viewBox="0 0 603 580"
           fill="none"
-          className="features-design-div2"
+          className="features-design-div2 md:w-11/12"
         >
           <g filter="url(#filter0_f_82_129)">
             <path
@@ -132,7 +132,7 @@ export default function Features() {
           height="575"
           viewBox="0 0 615 575"
           fill="none"
-          className="features-design-div3"
+          className="features-design-div3 md:w-11/12"
         >
           <g filter="url(#filter0_f_82_179)">
             <path
@@ -189,7 +189,7 @@ export default function Features() {
           height="583"
           viewBox="0 0 696 583"
           fill="none"
-          className="features-design-div4"
+          className="features-design-div4 md:w-11/12"
         >
           <g filter="url(#filter0_f_82_170)">
             <path

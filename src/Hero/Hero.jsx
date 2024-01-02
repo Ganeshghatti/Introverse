@@ -6,8 +6,8 @@ export default function Hero() {
       id="hero"
       className="w-screen h-screen flex flex-col items-center justify-center gap-6"
     >
-      <p className="text-7xl md:text-4xl font-extrabold text-center hero-title text-white">
-        INTROVERSE
+      <p className="text-7xl md:text-5xl font-extrabold text-center hero-title text-white md:w-11/12">
+        INTRO<br className="hidden md:block"/>VERSE
       </p>
       <p className="text-3xl md:text-xl font-normal text-center text-gray2">
         A new age Pseudonymous Social media
@@ -58,7 +58,7 @@ export default function Hero() {
         height="550"
         viewBox="0 0 748 550"
         fill="none"
-        className="absolute hero-design"
+        className="absolute hero-design md:w-11/12"
       >
         <g filter="url(#filter0_f_82_33)">
           <path
